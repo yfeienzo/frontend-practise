@@ -1,0 +1,1 @@
+This repo is for practising writing frontend components with Next.js, Tailwind and Typescript
