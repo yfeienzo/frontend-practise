@@ -14,7 +14,7 @@ export default function Home() {
                     />
                     <div className="bg-[#F4D04E] rounded-md w-[82px] h-[29px] justify-center font-bold text-[12px] flex items-center mb-3">Learning</div>
                     <p className="text-[14px] mb-3">Published 21 Dec 2023</p>
-                    <div className="font-bold mb-3 text-[20px]">HTML & CSS foundations</div>
+                    <div className="font-bold mb-3 text-[20px] hover:text-[#F4d04E] cursor-pointer">HTML & CSS foundations</div>
                     <p className="text-[#7F7F7F] text-[14px] mb-5">These languages are the backbone of every website, defining structure, content, and presentation</p>
                     <div className="flex">
                         <Image
