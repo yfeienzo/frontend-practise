@@ -14,7 +14,7 @@ export default function Home() {
                     />
                    <p className="font-bold text-[22px] mb-1">Jessica Randall</p>
                    <p className="text-[#c4f82a] text-[13spx] mb-3">London, United Kingdoms</p>
-                   <p className="text-[12px] mb-3">"Front-end developer and avid reader."</p>
+                   <p className="text-[12px] mb-3">`${"Front-end developer and avid reader."}`</p>
                    <div className="cursor-pointer hover:bg-[#c4f82a] hover:text-[#343433] bg-[#343433] text-[14px] font-bold rounded-md leading-8 mb-2 h-[32px]">Github</div>
                    <div className="cursor-pointer hover:bg-[#c4f82a] hover:text-[#343433] bg-[#343433] text-[14px] font-bold rounded-md leading-8 mb-2 h-[32px]">Frontend Mentor</div>
                    <div className="cursor-pointer hover:bg-[#c4f82a] hover:text-[#343433] bg-[#343433] text-[14px] font-bold rounded-md leading-8 mb-2 h-[32px]">Linkedin</div>
