@@ -16,6 +16,8 @@ const config: Config = {
       fontFamily: {
         outfit: ['var(--font-outfit)'],
         ys: ['var(--font-ys)'],
+        montserrat: ['var(--font-montserrat)'],
+        fraunces: ["var(--font-fraunces)"],
       },
     },
   },
