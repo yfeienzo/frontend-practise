@@ -4,14 +4,8 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 export default function Home() {
     return (
         <div className="flex h-screen justify-center items-center bg-[#f2ebe5]">
-            <div className="w-[320px] bg-white rounded-2xl font-montserrat text-[#7d7d85] text-[14px]">
-                <Image
-                        src="/responsive-product/product-mobile.jpg"
-                        alt="article"
-                        className="rounded-t-2xl"
-                        width={320}
-                        height={200}
-                    />
+            <div className="w-[320px] bg-white rounded-2xl font-montserrat text-[#7d7d85] text-[14px] flex flex-col lg:flex-row lg:w-auto">
+                <div className="w-[320px] h-[200px] bg-cover rounded-t-2xl bg-[url('/responsive-product/product-mobile.jpg')] lg:bg-[url('/responsive-product/product-desktop.jpg')] lg:h-auto lg:w-[200px] lg:rounded-tr-none lg:rounded-l-2xl"></div>
                 <div className="p-6 ">
                     <div className="mb-2">P E R F U M E</div>
                     <div className="font-fraunces text-[26px] leading-8 mb-3 text-[#1e2629]">Gabrielle Essence Eau De Parfum</div>
