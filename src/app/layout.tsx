@@ -1,6 +1,19 @@
 import type { Metadata } from "next";
-import { Montserrat, Fraunces, Outfit, Young_Serif  } from "next/font/google";
+import { 
+  Poppins,
+  Montserrat, 
+  Fraunces, 
+  Outfit, 
+  Young_Serif  
+} from "next/font/google";
 import "./globals.css";
+
+const poppins = Poppins({
+  subsets: ["latin"], 
+  display: 'swap',
+  variable: '--font-poppins',
+  weight: ['300','600']
+})
 
 const montserrat = Montserrat({ 
   subsets: ["latin"], 
@@ -41,7 +54,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} ${fraunces.variable} ${outfit.variable} ${ys.variable}`}>{children}</body>
+      <body className={`${poppins.variable} ${montserrat.variable} ${fraunces.variable} ${outfit.variable} ${ys.variable}`}>{children}</body>
     </html>
   );
 }

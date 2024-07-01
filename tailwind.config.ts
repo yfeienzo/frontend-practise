@@ -18,6 +18,7 @@ const config: Config = {
         ys: ['var(--font-ys)'],
         montserrat: ['var(--font-montserrat)'],
         fraunces: ["var(--font-fraunces)"],
+        poppins: ["var(--font-poppins)"]
       },
     },
   },
